@@ -21,6 +21,12 @@
 		231ABF4F2BB0FBEB007628A2 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF4E2BB0FBEB007628A2 /* HomeViewViewModel.swift */; };
 		231ABF512BB0FC0C007628A2 /* RoomViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF502BB0FC0C007628A2 /* RoomViewViewModel.swift */; };
 		231ABF532BB0FC2F007628A2 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF522BB0FC2F007628A2 /* ProfileViewViewModel.swift */; };
+		231ABF552BB10496007628A2 /* PlantViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF542BB10496007628A2 /* PlantViewViewModel.swift */; };
+		231ABF572BB104BE007628A2 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF562BB104BE007628A2 /* LoginViewViewModel.swift */; };
+		231ABF592BB104E1007628A2 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF582BB104E1007628A2 /* RegisterViewViewModel.swift */; };
+		231ABF5B2BB1051F007628A2 /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF5A2BB1051F007628A2 /* SettingsViewViewModel.swift */; };
+		231ABF5D2BB10539007628A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF5C2BB10539007628A2 /* User.swift */; };
+		231ABF5F2BB1055E007628A2 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF5E2BB1055E007628A2 /* Plant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +45,12 @@
 		231ABF4E2BB0FBEB007628A2 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		231ABF502BB0FC0C007628A2 /* RoomViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomViewViewModel.swift; sourceTree = "<group>"; };
 		231ABF522BB0FC2F007628A2 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		231ABF542BB10496007628A2 /* PlantViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewViewModel.swift; sourceTree = "<group>"; };
+		231ABF562BB104BE007628A2 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		231ABF582BB104E1007628A2 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
+		231ABF5A2BB1051F007628A2 /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
+		231ABF5C2BB10539007628A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		231ABF5E2BB1055E007628A2 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,10 @@
 				231ABF4E2BB0FBEB007628A2 /* HomeViewViewModel.swift */,
 				231ABF502BB0FC0C007628A2 /* RoomViewViewModel.swift */,
 				231ABF522BB0FC2F007628A2 /* ProfileViewViewModel.swift */,
+				231ABF542BB10496007628A2 /* PlantViewViewModel.swift */,
+				231ABF562BB104BE007628A2 /* LoginViewViewModel.swift */,
+				231ABF582BB104E1007628A2 /* RegisterViewViewModel.swift */,
+				231ABF5A2BB1051F007628A2 /* SettingsViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -116,6 +132,8 @@
 		231ABF3C2BB0E54B007628A2 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				231ABF5C2BB10539007628A2 /* User.swift */,
+				231ABF5E2BB1055E007628A2 /* Plant.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,10 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				231ABF4F2BB0FBEB007628A2 /* HomeViewViewModel.swift in Sources */,
+				231ABF5F2BB1055E007628A2 /* Plant.swift in Sources */,
+				231ABF572BB104BE007628A2 /* LoginViewViewModel.swift in Sources */,
 				231ABF3F2BB0FA2A007628A2 /* HomeView.swift in Sources */,
 				231ABF472BB0FA79007628A2 /* LoginView.swift in Sources */,
 				231ABF512BB0FC0C007628A2 /* RoomViewViewModel.swift in Sources */,
+				231ABF592BB104E1007628A2 /* RegisterViewViewModel.swift in Sources */,
 				231ABF412BB0FA38007628A2 /* RoomView.swift in Sources */,
+				231ABF5D2BB10539007628A2 /* User.swift in Sources */,
 				231ABF532BB0FC2F007628A2 /* ProfileViewViewModel.swift in Sources */,
 				231ABF4B2BB0FA9A007628A2 /* SettingsView.swift in Sources */,
 				231ABF452BB0FA66007628A2 /* PlantView.swift in Sources */,
@@ -211,6 +233,8 @@
 				231ABF492BB0FA8C007628A2 /* RegisterView.swift in Sources */,
 				231ABF2F2BB0DF78007628A2 /* ContentView.swift in Sources */,
 				231ABF2D2BB0DF78007628A2 /* GreenGuardApp.swift in Sources */,
+				231ABF5B2BB1051F007628A2 /* SettingsViewViewModel.swift in Sources */,
+				231ABF552BB10496007628A2 /* PlantViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
