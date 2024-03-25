@@ -27,6 +27,21 @@
 		231ABF5B2BB1051F007628A2 /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF5A2BB1051F007628A2 /* SettingsViewViewModel.swift */; };
 		231ABF5D2BB10539007628A2 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF5C2BB10539007628A2 /* User.swift */; };
 		231ABF5F2BB1055E007628A2 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF5E2BB1055E007628A2 /* Plant.swift */; };
+		231ABF612BB105FE007628A2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF602BB105FE007628A2 /* MainView.swift */; };
+		231ABF632BB1060A007628A2 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF622BB1060A007628A2 /* MainViewViewModel.swift */; };
+		231ABF662BB1066E007628A2 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF652BB1066E007628A2 /* FirebaseAnalytics */; };
+		231ABF682BB1066E007628A2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF672BB1066E007628A2 /* FirebaseAuth */; };
+		231ABF6A2BB1066E007628A2 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF692BB1066E007628A2 /* FirebaseAuthCombine-Community */; };
+		231ABF6C2BB1066E007628A2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF6B2BB1066E007628A2 /* FirebaseDatabase */; };
+		231ABF6E2BB1066E007628A2 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF6D2BB1066E007628A2 /* FirebaseDatabaseSwift */; };
+		231ABF702BB1066E007628A2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF6F2BB1066E007628A2 /* FirebaseFirestore */; };
+		231ABF722BB1066E007628A2 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF712BB1066E007628A2 /* FirebaseFirestoreCombine-Community */; };
+		231ABF742BB1066E007628A2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF732BB1066E007628A2 /* FirebaseFirestoreSwift */; };
+		231ABF762BB1066E007628A2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF752BB1066E007628A2 /* FirebaseStorage */; };
+		231ABF782BB1066E007628A2 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF772BB1066E007628A2 /* FirebaseStorageCombine-Community */; };
+		231ABF7B2BB10747007628A2 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF7A2BB10747007628A2 /* Apollo */; };
+		231ABF7D2BB10747007628A2 /* ApolloAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF7C2BB10747007628A2 /* ApolloAPI */; };
+		231ABF832BB108EF007628A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 231ABF822BB108EF007628A2 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +66,9 @@
 		231ABF5A2BB1051F007628A2 /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
 		231ABF5C2BB10539007628A2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		231ABF5E2BB1055E007628A2 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		231ABF602BB105FE007628A2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		231ABF622BB1060A007628A2 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
+		231ABF822BB108EF007628A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231ABF7B2BB10747007628A2 /* Apollo in Frameworks */,
+				231ABF6E2BB1066E007628A2 /* FirebaseDatabaseSwift in Frameworks */,
+				231ABF662BB1066E007628A2 /* FirebaseAnalytics in Frameworks */,
+				231ABF782BB1066E007628A2 /* FirebaseStorageCombine-Community in Frameworks */,
+				231ABF762BB1066E007628A2 /* FirebaseStorage in Frameworks */,
+				231ABF6A2BB1066E007628A2 /* FirebaseAuthCombine-Community in Frameworks */,
+				231ABF7D2BB10747007628A2 /* ApolloAPI in Frameworks */,
+				231ABF6C2BB1066E007628A2 /* FirebaseDatabase in Frameworks */,
+				231ABF682BB1066E007628A2 /* FirebaseAuth in Frameworks */,
+				231ABF702BB1066E007628A2 /* FirebaseFirestore in Frameworks */,
+				231ABF722BB1066E007628A2 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				231ABF742BB1066E007628A2 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +141,7 @@
 				231ABF462BB0FA79007628A2 /* LoginView.swift */,
 				231ABF482BB0FA8C007628A2 /* RegisterView.swift */,
 				231ABF4A2BB0FA9A007628A2 /* SettingsView.swift */,
+				231ABF602BB105FE007628A2 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -125,6 +156,7 @@
 				231ABF562BB104BE007628A2 /* LoginViewViewModel.swift */,
 				231ABF582BB104E1007628A2 /* RegisterViewViewModel.swift */,
 				231ABF5A2BB1051F007628A2 /* SettingsViewViewModel.swift */,
+				231ABF622BB1060A007628A2 /* MainViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -142,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				231ABF302BB0DF79007628A2 /* Assets.xcassets */,
+				231ABF822BB108EF007628A2 /* GoogleService-Info.plist */,
 				231ABF2C2BB0DF78007628A2 /* GreenGuardApp.swift */,
 			);
 			path = Other;
@@ -163,6 +196,20 @@
 			dependencies = (
 			);
 			name = GreenGuard;
+			packageProductDependencies = (
+				231ABF652BB1066E007628A2 /* FirebaseAnalytics */,
+				231ABF672BB1066E007628A2 /* FirebaseAuth */,
+				231ABF692BB1066E007628A2 /* FirebaseAuthCombine-Community */,
+				231ABF6B2BB1066E007628A2 /* FirebaseDatabase */,
+				231ABF6D2BB1066E007628A2 /* FirebaseDatabaseSwift */,
+				231ABF6F2BB1066E007628A2 /* FirebaseFirestore */,
+				231ABF712BB1066E007628A2 /* FirebaseFirestoreCombine-Community */,
+				231ABF732BB1066E007628A2 /* FirebaseFirestoreSwift */,
+				231ABF752BB1066E007628A2 /* FirebaseStorage */,
+				231ABF772BB1066E007628A2 /* FirebaseStorageCombine-Community */,
+				231ABF7A2BB10747007628A2 /* Apollo */,
+				231ABF7C2BB10747007628A2 /* ApolloAPI */,
+			);
 			productName = GreenGuard;
 			productReference = 231ABF292BB0DF78007628A2 /* GreenGuard.app */;
 			productType = "com.apple.product-type.application";
@@ -191,6 +238,10 @@
 				Base,
 			);
 			mainGroup = 231ABF202BB0DF78007628A2;
+			packageReferences = (
+				231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				231ABF792BB10747007628A2 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = 231ABF2A2BB0DF78007628A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -207,6 +258,7 @@
 			files = (
 				231ABF342BB0DF79007628A2 /* Preview Assets.xcassets in Resources */,
 				231ABF312BB0DF79007628A2 /* Assets.xcassets in Resources */,
+				231ABF832BB108EF007628A2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +274,7 @@
 				231ABF572BB104BE007628A2 /* LoginViewViewModel.swift in Sources */,
 				231ABF3F2BB0FA2A007628A2 /* HomeView.swift in Sources */,
 				231ABF472BB0FA79007628A2 /* LoginView.swift in Sources */,
+				231ABF612BB105FE007628A2 /* MainView.swift in Sources */,
 				231ABF512BB0FC0C007628A2 /* RoomViewViewModel.swift in Sources */,
 				231ABF592BB104E1007628A2 /* RegisterViewViewModel.swift in Sources */,
 				231ABF412BB0FA38007628A2 /* RoomView.swift in Sources */,
@@ -234,6 +287,7 @@
 				231ABF2F2BB0DF78007628A2 /* ContentView.swift in Sources */,
 				231ABF2D2BB0DF78007628A2 /* GreenGuardApp.swift in Sources */,
 				231ABF5B2BB1051F007628A2 /* SettingsViewViewModel.swift in Sources */,
+				231ABF632BB1060A007628A2 /* MainViewViewModel.swift in Sources */,
 				231ABF552BB10496007628A2 /* PlantViewViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +492,88 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.23.0;
+			};
+		};
+		231ABF792BB10747007628A2 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.9.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		231ABF652BB1066E007628A2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		231ABF672BB1066E007628A2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		231ABF692BB1066E007628A2 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		231ABF6B2BB1066E007628A2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		231ABF6D2BB1066E007628A2 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		231ABF6F2BB1066E007628A2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		231ABF712BB1066E007628A2 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		231ABF732BB1066E007628A2 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		231ABF752BB1066E007628A2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		231ABF772BB1066E007628A2 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF642BB1066E007628A2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		231ABF7A2BB10747007628A2 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF792BB10747007628A2 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		231ABF7C2BB10747007628A2 /* ApolloAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 231ABF792BB10747007628A2 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 231ABF212BB0DF78007628A2 /* Project object */;
 }

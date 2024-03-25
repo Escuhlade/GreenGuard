@@ -6,10 +6,22 @@
 //
 
 import SwiftUI
-
+import FirebaseAuth
 struct LoginView: View {
+    @StateObject var viewModel = LoginViewViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form{
+            Section("Login"){
+                TextField("Enter Email", text: $viewModel.email)
+                SecureField("Enter password", text: $viewModel.password)
+                Button {
+                    // execute login
+                }label: {
+                    Text("Log in")
+                        .tint(.blue)
+                }
+            }
+        }
     }
 }
 

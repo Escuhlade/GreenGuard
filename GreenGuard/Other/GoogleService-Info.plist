@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>340521910018-bibi0am4eao8va8atvf9hd5pkjnvnoag.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.340521910018-bibi0am4eao8va8atvf9hd5pkjnvnoag</string>
+	<key>API_KEY</key>
+	<string>AIzaSyClpkirJj7kKlawkwbmTon-BzrCx0ZzSGo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>340521910018</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.GreenGuard.GreenGuard</string>
+	<key>PROJECT_ID</key>
+	<string>greenguard-5c54d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>greenguard-5c54d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:340521910018:ios:802bb352b42ce8e6c58c1b</string>
+</dict>
+</plist>

@@ -8,4 +8,11 @@
 import Foundation
 class LoginViewViewModel : ObservableObject {
     init(){}
+    @Published var email : String = ""
+    @Published var password: String = ""
+    
+    func isValid() -> Bool{
+                
+        return true
+    }
 }
