@@ -10,17 +10,13 @@ import FirebaseAuth
 struct LoginView: View {
     @StateObject var viewModel = LoginViewViewModel()
     var body: some View {
-        Form{
-            Section("Login"){
-                TextField("Enter Email", text: $viewModel.email)
-                SecureField("Enter password", text: $viewModel.password)
-                Button {
-                    // execute login
-                }label: {
-                    Text("Log in")
-                        .tint(.blue)
-                }
-            }
+        ZStack{
+            // Background image with opaque view
+            
+            
+            // call component to display form with email and creds
+            LoginFormView()
+                
         }
     }
 }

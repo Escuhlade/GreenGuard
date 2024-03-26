@@ -12,7 +12,7 @@ struct MainView: View {
         // if user logged in
         
         //else user has to be shown login / create user screen
-        LoginView()
+        LoginFormView()
         
     }
 }

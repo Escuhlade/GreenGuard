@@ -42,6 +42,8 @@
 		231ABF7B2BB10747007628A2 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF7A2BB10747007628A2 /* Apollo */; };
 		231ABF7D2BB10747007628A2 /* ApolloAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 231ABF7C2BB10747007628A2 /* ApolloAPI */; };
 		231ABF832BB108EF007628A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 231ABF822BB108EF007628A2 /* GoogleService-Info.plist */; };
+		231ABF852BB270C8007628A2 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF842BB270C8007628A2 /* ForgotPasswordView.swift */; };
+		231ABF892BB284E8007628A2 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF882BB284E7007628A2 /* LoginFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +71,8 @@
 		231ABF602BB105FE007628A2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		231ABF622BB1060A007628A2 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewViewModel.swift; sourceTree = "<group>"; };
 		231ABF822BB108EF007628A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		231ABF842BB270C8007628A2 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		231ABF882BB284E7007628A2 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +146,8 @@
 				231ABF482BB0FA8C007628A2 /* RegisterView.swift */,
 				231ABF4A2BB0FA9A007628A2 /* SettingsView.swift */,
 				231ABF602BB105FE007628A2 /* MainView.swift */,
+				231ABF842BB270C8007628A2 /* ForgotPasswordView.swift */,
+				231ABF882BB284E7007628A2 /* LoginFormView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -270,12 +276,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				231ABF4F2BB0FBEB007628A2 /* HomeViewViewModel.swift in Sources */,
+				231ABF852BB270C8007628A2 /* ForgotPasswordView.swift in Sources */,
 				231ABF5F2BB1055E007628A2 /* Plant.swift in Sources */,
 				231ABF572BB104BE007628A2 /* LoginViewViewModel.swift in Sources */,
 				231ABF3F2BB0FA2A007628A2 /* HomeView.swift in Sources */,
 				231ABF472BB0FA79007628A2 /* LoginView.swift in Sources */,
 				231ABF612BB105FE007628A2 /* MainView.swift in Sources */,
 				231ABF512BB0FC0C007628A2 /* RoomViewViewModel.swift in Sources */,
+				231ABF892BB284E8007628A2 /* LoginFormView.swift in Sources */,
 				231ABF592BB104E1007628A2 /* RegisterViewViewModel.swift in Sources */,
 				231ABF412BB0FA38007628A2 /* RoomView.swift in Sources */,
 				231ABF5D2BB10539007628A2 /* User.swift in Sources */,
