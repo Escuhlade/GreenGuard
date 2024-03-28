@@ -44,6 +44,8 @@
 		231ABF832BB108EF007628A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 231ABF822BB108EF007628A2 /* GoogleService-Info.plist */; };
 		231ABF852BB270C8007628A2 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF842BB270C8007628A2 /* ForgotPasswordView.swift */; };
 		231ABF892BB284E8007628A2 /* LoginFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF882BB284E7007628A2 /* LoginFormView.swift */; };
+		231ABF8B2BB38BB4007628A2 /* RegisterFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF8A2BB38BB4007628A2 /* RegisterFormView.swift */; };
+		231ABF8D2BB532A5007628A2 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF8C2BB532A5007628A2 /* extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		231ABF822BB108EF007628A2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		231ABF842BB270C8007628A2 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		231ABF882BB284E7007628A2 /* LoginFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormView.swift; sourceTree = "<group>"; };
+		231ABF8A2BB38BB4007628A2 /* RegisterFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormView.swift; sourceTree = "<group>"; };
+		231ABF8C2BB532A5007628A2 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				231ABF2E2BB0DF78007628A2 /* ContentView.swift */,
+				231ABF8A2BB38BB4007628A2 /* RegisterFormView.swift */,
 				231ABF3E2BB0FA2A007628A2 /* HomeView.swift */,
 				231ABF402BB0FA38007628A2 /* RoomView.swift */,
 				231ABF422BB0FA57007628A2 /* ProfileView.swift */,
@@ -182,6 +187,7 @@
 				231ABF302BB0DF79007628A2 /* Assets.xcassets */,
 				231ABF822BB108EF007628A2 /* GoogleService-Info.plist */,
 				231ABF2C2BB0DF78007628A2 /* GreenGuardApp.swift */,
+				231ABF8C2BB532A5007628A2 /* extension.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -278,6 +284,7 @@
 				231ABF4F2BB0FBEB007628A2 /* HomeViewViewModel.swift in Sources */,
 				231ABF852BB270C8007628A2 /* ForgotPasswordView.swift in Sources */,
 				231ABF5F2BB1055E007628A2 /* Plant.swift in Sources */,
+				231ABF8B2BB38BB4007628A2 /* RegisterFormView.swift in Sources */,
 				231ABF572BB104BE007628A2 /* LoginViewViewModel.swift in Sources */,
 				231ABF3F2BB0FA2A007628A2 /* HomeView.swift in Sources */,
 				231ABF472BB0FA79007628A2 /* LoginView.swift in Sources */,
@@ -289,6 +296,7 @@
 				231ABF5D2BB10539007628A2 /* User.swift in Sources */,
 				231ABF532BB0FC2F007628A2 /* ProfileViewViewModel.swift in Sources */,
 				231ABF4B2BB0FA9A007628A2 /* SettingsView.swift in Sources */,
+				231ABF8D2BB532A5007628A2 /* extension.swift in Sources */,
 				231ABF452BB0FA66007628A2 /* PlantView.swift in Sources */,
 				231ABF432BB0FA57007628A2 /* ProfileView.swift in Sources */,
 				231ABF492BB0FA8C007628A2 /* RegisterView.swift in Sources */,
