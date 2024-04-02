@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct ProfileView: View {
+   @StateObject var viewModel = ProfileViewViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Signout functionality")
+        
+        Button {
+            viewModel.signout()
+        } label: {
+            ZStack{
+                RoundedRectangle(cornerRadius: 15)
+                    .tint(.red)
+                    .frame(width: 200, height: 50)
+                Spacer()
+                Text("Sign Out")
+                    .foregroundColor(.white)
+            }
+        }
     }
 }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2301C9C82BBA37DF000B1951 /* YourHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301C9C72BBA37DF000B1951 /* YourHomeView.swift */; };
+		2301C9CA2BBA3808000B1951 /* YourHomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301C9C92BBA3808000B1951 /* YourHomeViewViewModel.swift */; };
 		231ABF2D2BB0DF78007628A2 /* GreenGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF2C2BB0DF78007628A2 /* GreenGuardApp.swift */; };
 		231ABF2F2BB0DF78007628A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231ABF2E2BB0DF78007628A2 /* ContentView.swift */; };
 		231ABF312BB0DF79007628A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231ABF302BB0DF79007628A2 /* Assets.xcassets */; };
@@ -49,6 +51,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2301C9C72BBA37DF000B1951 /* YourHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourHomeView.swift; sourceTree = "<group>"; };
+		2301C9C92BBA3808000B1951 /* YourHomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourHomeViewViewModel.swift; sourceTree = "<group>"; };
 		231ABF292BB0DF78007628A2 /* GreenGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		231ABF2C2BB0DF78007628A2 /* GreenGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenGuardApp.swift; sourceTree = "<group>"; };
 		231ABF2E2BB0DF78007628A2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -153,6 +157,7 @@
 				231ABF602BB105FE007628A2 /* MainView.swift */,
 				231ABF842BB270C8007628A2 /* ForgotPasswordView.swift */,
 				231ABF882BB284E7007628A2 /* LoginFormView.swift */,
+				2301C9C72BBA37DF000B1951 /* YourHomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				231ABF582BB104E1007628A2 /* RegisterViewViewModel.swift */,
 				231ABF5A2BB1051F007628A2 /* SettingsViewViewModel.swift */,
 				231ABF622BB1060A007628A2 /* MainViewViewModel.swift */,
+				2301C9C92BBA3808000B1951 /* YourHomeViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -302,9 +308,11 @@
 				231ABF492BB0FA8C007628A2 /* RegisterView.swift in Sources */,
 				231ABF2F2BB0DF78007628A2 /* ContentView.swift in Sources */,
 				231ABF2D2BB0DF78007628A2 /* GreenGuardApp.swift in Sources */,
+				2301C9CA2BBA3808000B1951 /* YourHomeViewViewModel.swift in Sources */,
 				231ABF5B2BB1051F007628A2 /* SettingsViewViewModel.swift in Sources */,
 				231ABF632BB1060A007628A2 /* MainViewViewModel.swift in Sources */,
 				231ABF552BB10496007628A2 /* PlantViewViewModel.swift in Sources */,
+				2301C9C82BBA37DF000B1951 /* YourHomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

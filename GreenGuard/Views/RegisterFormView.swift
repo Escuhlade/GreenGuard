@@ -21,12 +21,13 @@ struct RegisterFormView: View {
                         Button{
                             // action attempt login
                             viewModel.registerAccount()
+                            NavigationLink(destination: LoginView(), label:{EmptyView()})
                         }
                     label:{
                         ZStack{
                             RoundedRectangle(cornerRadius: 11)
                                 .foregroundColor(.green)
-                            Text("Log In")
+                            Text("Click to register")
                                 .foregroundColor(.white)
                                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                             

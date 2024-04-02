@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject var viewModel = MainViewViewModel()
     var body: some View {
         // if user logged in
-        
-        //else user has to be shown login / create user screen
-        LoginFormView()
-        
+        if viewModel.isSignedIn == true{
+            HomeView()
+        }
+        else{
+            //else user has to be shown login / create user screen
+            LoginFormView()
+        }
     }
 }
 
